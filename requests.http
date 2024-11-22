@@ -1,0 +1,23 @@
+GET https://hknjlq-3000.csb.app/ HTTP/1.1
+
+###
+
+GET https://hknjlq-3000.csb.app/tasks HTTP/1.1
+
+###
+
+POST https://hknjlq-3000.csb.app/tasks HTTP/1.1
+content-type: application/json
+
+{}
+
+###
+
+PUT https://hknjlq-3000.csb.app/tasks/1 HTTP/1.1
+content-type: application/json
+
+{}
+
+###
+
+DELETE https://hknjlq-3000.csb.app/tasks/1 HTTP/1.1
